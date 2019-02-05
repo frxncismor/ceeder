@@ -73,39 +73,55 @@ h1 strong {
 }
 
 .team {
-  margin: 10px;
-  width: 480px;
+  border: 1px solid gray;
+  margin: -2px 115px -2px -26px;
+  width: 410px;
   flex-shrink: 0;
+  border-radius: 10px;
   overflow: hidden;
-  background:floralwhite ;
   height: auto;
 }
 
-.team-image{
-  width: 400px;
+.team img{
+  width: 363px;
   height: 318px;
   object-fit: cover;
 }
 
 .team-detail {
+  margin: 36px 0px;
+  margin-top: -108px;
+  background-color: white;
+  position: relative;
+  padding: 0px;
+  text-align: center;
+}
+
+.team-job{
+  color:#FEE8A0;
+  font-weight: bold;
+  font-size: 30pt;
+  margin: 65px -21px;
+  margin-top:-40px; 
+  background-color: white;
+}
+
+.team-name {
+  text-align: center;
+  font-size: 15pt;
+  background-color: white;
+  margin: 59px -20px;
+  margin-top: -40px;
+  
+}
+
+.team-description{
   margin: 20px 40px;
   margin-top: -40px;
   background-color: white;
   position: relative;
   padding: 20px;
   text-align: center;
-}
-
-.team-job{
-
-}
-
-.team-name {
-  text-align: center;
-}
-
-.team-description{
-
 }
 
 .event-url {
