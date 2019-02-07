@@ -63,6 +63,44 @@ h1 strong {
   color: #FEE8A0;
 }
 
+
+.objectives-container{
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-objectives{
+  border: 1px solid white;
+  width: 100%;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.objectives-image-container{
+  border: 1px solid black;
+  border-top: 0px;
+  background-color: whitesmoke;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+.objectives-image{
+  width: 500px;
+  margin: 50px;
+}
+
 .about {
   display: flex;
   flex-wrap: wrap;
@@ -212,7 +250,7 @@ h1 strong {
 }
 
 .container{
-  border: solid 1px red;
+  /* border: solid 1px red; */
   width: 100%;
   margin: 0 auto;
   display: inherit;
