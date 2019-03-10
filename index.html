@@ -1,144 +1,126 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
-  
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ceeder</title>
-  <link rel="icon" type="image/png" href="images/icono.png">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio</title>
+    <link rel="icon" type="image/png" href="images/icono.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <header class="header">
+    <header class="header">
+        <div class="container">
+            <figure class="logo">
+                <img class="logo-image" src="images/logo.png" alt="Logo de Ceeder">
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li><a class="link" alt="Inicio" href="Index.html">Inicio</a></li>
+                    <li><a class="link" alt="Nosotros" href="About.html">Nosotros</a></li>
+                    <li><a class="link" alt="Contacto" href="#contact">Contacto</a></li>
+                    <li><a class="link" alt="Objetivos" href="#objectives">Objetivos</a></li>
+                    <li><a class="link" alt="Iniciar Sesión" href="#login">Iniciar sesión</a></li>
+                    <li><a class="link" alt="Registro" href="#signup">Registro</a></li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Viaja<strong> sin descuidar</strong> a tu mejor amigo </h1>
+            <img class="hero-image" src="images/hero2.jpg" width="500" height="500" alt="Imagen principal del sitio">
+        </div>
+    </section>
+
+
     <div class="container">
-      <figure class="logo">
-        <img class="logo-image" src="images/logo.png" alt="Logo de Ceeder">
-      </figure>
-      <nav class="menu">
-        <ol>
-          <li><a class="link" href="#home">Inicio</a></li>
-          <li><a class="link" href="#about">Nosotros</a></li>
-          <li><a class="link" href="#contact">Contacto</a></li>
-          <li><a class="link" href="#objectives">Objetivos</a></li>
-        </ol>
-      </nav>
+        <div class="discovery-description">
+            <h2>¡El mejor amigo de tu mejor amigo!</h2>
+            <h3>Conoce el dispensador automatico que se preocupa por ti y por tu perro.</h3>
+        </div>
     </div>
-  </header>
 
-  <section id="home" class="hero">
-    <div class="container">
-      <h1>Viaja<strong> sin descuidar</strong> a tu mejor amigo </h1>
-      <img class="hero-image" src="images/hero2.jpg" width="500" height="500" alt="Imagen principal del sitio">
-    </div>
-  </section>
+    <section class="discovery">
+        <a class="discovery-post">
+            <figure class="discovery-image">
+                <img src="images/item1.jpg" alt="">
+            </figure>
+            <div class="discovery-list">
+                <p>
+                    <span class="post-hover">Buena alimentación</span>
+                </p>
+            </div>
+        </a>
+        
+        <a class="discovery-post">
+            <figure class="discovery-image">
+                <img src="images/item2.jpg" alt="">
+            </figure>
+            <div class="discovery-list">
+                <p>
+                    <span class="post-hover">Confiabilidad</span>
+                </p>
+            </div>
+        </a>
+        <a class="discovery-post">
+            <figure class="discovery-image">
+                <img src="images/item3.jpg" alt="">
+            </figure>
+            <div class="discovery-list">
+                <p>
+                    <span class="post-hover">Disponibilidad</span>
+                </p>
+            </div>
+        </a>
+        <a class="discovery-post">
+            <figure class="discovery-image">
+                <img src="images/item4.jpg" alt="">
+            </figure>
+            <div class="discovery-list">
+                <p>
+                    <span class="post-hover">Automatización</span>
+                </p>
+            </div>
+        </a>
+    </section>
 
-  <section class="objectives-container" >
-    <div class="container-objectives">
-      <article class="objectives">
-          <h2 class="objectives-title" >Objetivos</h2>
-          <p class="objectives-description">Este es un objetivo mas decente</p>
-          <h2 class="vision-title">Visión</h2>
-          <p class="vision-description">sklfakjdsfjsk</p>
-          <h2 class="mision-title" >Misión</h2>
-          <p class="mision-description" >slkafjdsklfjs</p>
-      </article>
-      <figure class="objectives-image-container">
-        <img class="objectives-image"  src="images/grandanes.jpg">
-      </figure>
-    </div>
-  </section>
+    <section class="promote">
+        <div class="container">
+            <h1 class="promote-title">Prueba la experiencia Ceeder</h1>
+            <div class="wrapper-promote-description">
+                <p class="promote-description">Crea el perfil de tu mascota, habilita el dispensador y deja de preocuparte</p>
+            </div>
+            <div class="promote-link">
+                <a class="wrapper-wstore" target="_blank" href="">
+                    <div class="promote-wstore">
+                        <img src="images/WStore.png" alt="">
+                    </div>
+                </a>
+            </div>
+            <figure class="promote-image">
+                <img src="images/mac.png" alt="">
+            </figure>
+        </div>
+        
+    </section>
 
-  <div class="container">
-    <h2 id="about" class="about-title">Conocenos</h2>
-  </div>
+     <!-- <iframe id="contact" scrolling="no" class="contact" src="./contact.aspx" frameborder="0" ></iframe>  -->
 
-  <section class="about">
-    <div class="container"> 
-      <article class="team">
-        <figure class="team-image-container">
-          <img class="team-image" src="images/angel.jpeg">
-        </figure>
-        <div class="team-detail">
-          <h3 class="team-job">Puesto</h3>
-          <p class="team-name" >Nombre del integrante</p>
-          <p class="team-description">Descripción del puesto</p>
+    
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <p>2019©Copyright-Ceeder | Todos los derechos reservados.</p>
+            </div>
+            
         </div>
-      </article>
-      <article class="team">
-        <figure class="team-image-container">
-          <img class="team-image" src="images/angel.jpeg">
-        </figure>
-        <div class="team-detail">
-          <h3 class="team-job">Puesto</h3>
-          <p class="team-name" >Nombre del integrante</p>
-          <p class="team-description">Descripción del puesto</p>
-        </div>
-      </article>
-      <article class="team">
-        <figure class="team-image-container">
-          <img class="team-image" src="images/angel.jpeg">
-        </figure>
-        <div class="team-detail">
-          <h3 class="team-job">Puesto</h3>
-          <p class="team-name" >Nombre del integrante</p>
-          <p class="team-description">Descripción del puesto</p>
-        </div>
-      </article>
-      <article class="team">
-        <figure class="team-image-container">
-          <img class="team-image" src="images/angel.jpeg">
-        </figure>
-        <div class="team-detail">
-          <h3 class="team-job">Puesto</h3>
-          <p class="team-name" >Nombre del integrante</p>
-          <p class="team-description">Descripción del puesto</p>
-        </div>
-      </article>
-      <article class="team">
-        <figure class="team-image-container">
-          <img class="team-image" src="images/angel.jpeg">
-        </figure>
-        <div class="team-detail">
-          <h3 class="team-job">Puesto</h3>
-          <p class="team-name" >Nombre del integrante</p>
-          <p class="team-description">Descripción del puesto</p>
-        </div>
-      </article>
-      <article class="team">
-        <figure class="team-image-container">
-          <img class="team-image" src="images/angel.jpeg">
-        </figure>
-        <div class="team-detail">
-          <h3 class="team-job">Puesto</h3>
-          <p class="team-name" >Nombre del integrante</p>
-          <p class="team-description">Descripción del puesto</p>
-        </div>
-      </article>
-    </div>   
-  </section>
+    </footer>
 
-  <section id="contact" class="contact">
-    <div class="container">
-      <form class="form-email" action="mailto:franciscoj.sparcoltary@gmail.com" method="POST"> <h3>Contactanos</h3>
-        <input class="contact-input" type="text" placeholder="    Déjanos tu e-mail" id="email">
-        <input class="contact-submit" type="submit" value="Enviar">
-      </form> 
-      <div class="social">
-        <a class="social-link facebook" href="https://www.facebook.com/Ceeder-608185126307554/"></a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      <div>
-         <p>©Ceeder</p>
-      </div>
-   </div>
-  </footer>
-  
 </body>
+
 </html>
